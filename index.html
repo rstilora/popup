@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>|| PopUp ||</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <style>
+        *, ul, li {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .contianer {
+            max-width: 1140px;
+            width: 100%;
+            margin: auto;
+            padding: 0px 15px;
+            text-align: center;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 4% auto;
+        }
+
+        .navmenu {
+            position: fixed;
+            width: 100%;
+            top: 50px;
+            left: 0;
+        }
+
+        .triger {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px 10px;
+            text-decoration: none;
+            background: #ccc;
+            color: #808080;
+        }
+
+
+
+
+        /* M_modal Css */
+
+        .M_modal {
+            position: fixed;
+            top: -999px;
+            transition: all ease-in-out 0.8s;
+            -ms-transition: all ease-in-out 0.8s;
+            -webkit-transition: all ease-in-out 0.8s;
+            z-index: 9;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%); /* IE 9 */
+            -webkit-transform: translate(-50%,-50%); /* Safari */
+        }
+
+        .madal_cont {
+            position: relative;
+            width: 600px;
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .M_close {
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+
+
+        .M_overlay {
+            background: rgba(0,0,0,0.8);
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 8;
+            top: 0px;
+            left: 0px;
+        }
+
+        .M_overlay {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contianer">
+
+        <div class="main">
+            <div class="navmenu">
+                <a class="triger" data-modal="first" href="javascript:void(0)">Popup 1</a>
+                <a class="triger" data-modal="second" href="javascript:void(0)">Popup 2</a>
+                <a class="triger" data-modal="third" href="javascript:void(0)">Popup 3</a>
+                <a class="triger" data-modal="fourth" href="javascript:void(0)">Popup 4</a>
+                <a class="triger" data-modal="fifth" href="javascript:void(0)">Popup 5</a>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="M_modal" data-modal="first">
+            <div class="madal_cont">
+                <h1>HEllo</h1>
+                <div class="M_close">
+                    <img src="images/close.png" alt="close" /></div>
+                <div>
+                    <img src="images/slider3.jpg" alt="close" />
+
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="M_modal" data-modal="second">
+            <div class="madal_cont">
+                <h1>HEllo 2</h1>
+                <div class="M_close">
+                    <img src="images/close.png" alt="close" /></div>
+                <div>
+                    <img src="images/slider1.jpg" alt="close" />
+
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="M_modal" data-modal="third">
+            <div class="madal_cont">
+                <h1>HEllo 3</h1>
+                <div class="M_close">
+                    <img src="images/close.png" alt="close" /></div>
+                <div>
+                    <img src="images/slider2.jpg" alt="close" />
+
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="M_modal" data-modal="fourth">
+            <div class="madal_cont">
+                <h1>HEllo 4</h1>
+                <div class="M_close">
+                    <img src="images/close.png" alt="close" /></div>
+                <div>
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="M_modal" data-modal="fifth">
+            <div class="madal_cont">
+                <h1>HEllo 5</h1>
+                <div class="M_close">
+                    <img src="images/close.png" alt="close" /></div>
+                <div>
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+                    <p>Dec 21, 2012 - I spent a lot of time researching the same problem. Some solutions related this bug ... be in the references of the project. But none of these solutions worked for me. I think it is a bug in Visual Studio 2012, Microsoft has to fix it.</p>
+
+                    <a href="#">Read More</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="M_overlay"></div>
+    <script>
+
+
+        //******    || PopUp ||    *******// 
+
+        // popup triger //
+
+        var checkTrigerModal;
+
+        $('.triger').click(function () {
+            checkTrigerModal = $(this).attr("data-modal");
+
+            //console.log(checkTrigerModal);   
+
+            $('.M_modal[data-modal="' + checkTrigerModal + '"]').css({ "top": "50%", });
+            $('.M_overlay').css({ "display": "block", });
+
+        });
+
+        // Close Popup //
+        $('.M_overlay, .M_close ').click(function () {
+
+            //console.log(checkTrigerModal);
+
+            $('.M_modal[data-modal="' + checkTrigerModal + '"]').css({ "top": "-999px", });
+            $('.M_overlay').css({ "display": "none", });
+        });
+
+
+        $(document).keyup(function (e) {
+
+            if (e.keyCode === 27 || e.keyCode === 32) {
+
+                $('.M_modal[data-modal="' + checkTrigerModal + '"]').css({ "top": "-999px", });
+                $('.M_overlay').css({ "display": "none", });
+            }   // esc
+        });
+    </script>
+</body>
+</html>
